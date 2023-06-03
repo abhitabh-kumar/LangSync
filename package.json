@@ -1,0 +1,20 @@
+{
+  "name": "langsync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhitabh-kumar/LangSync.git"
+  },
+  "keywords": ["text translator","extract text from files and convert its language"],
+  "author": "Abhitabh Kumar Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhitabh-kumar/LangSync/issues"
+  },
+  "homepage": "https://github.com/abhitabh-kumar/LangSync#readme"
+}
