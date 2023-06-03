@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+console.log(`
+Abhitabh Kumar Pandey
+Site- https://portfolio-7c348.web.app/
+Email - abhitabhkumar9718@gmail.com
+`)
+
 const translation = async (outputLanguage, inputText) => {
     const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${outputLanguage}&dt=t&q=${encodeURI(
       inputText
