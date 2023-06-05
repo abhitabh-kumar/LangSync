@@ -1,23 +1,30 @@
 {
   "name": "langsync",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "bin":{
-    "test":"index.js"
+  "bin": {
+    "test": "index.js"
   },
   "scripts": {
+    "build":"tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abhitabh-kumar/LangSync.git"
   },
-  "keywords": ["text translator","extract text from files and convert its language"],
+  "keywords": [
+    "text translator",
+    "extract text from files and convert its language"
+  ],
   "author": "Abhitabh Kumar Pandey",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abhitabh-kumar/LangSync/issues"
   },
-  "homepage": "https://github.com/abhitabh-kumar/LangSync#readme"
+  "homepage": "https://github.com/abhitabh-kumar/LangSync#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
